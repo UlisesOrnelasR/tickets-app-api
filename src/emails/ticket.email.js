@@ -87,14 +87,14 @@ export class TicketEmail {
   }) => {
     try {
       await transporter.sendMail({
-        from: "MERN STACK <noreply@mern.com>",
+        from: "Tickets <noreply@demomailtrap.com>",
         to: email,
         subject: "Ticket cerrado",
         text: "Ticket cerrado",
         html: `<div style="width: 100%; max-width: 650px; margin: 0 auto; padding: 1rem; font-family: sans-serif;">
         <h1 style="text-align: center; color: #000; font-size: 2rem; font-weight: 700;">Ticket cerrado</h1>
         <p style="text-align: center; color: #000; font-size: 1.2rem; font-weight: 400;">Hola <span style="font-weight: bold;">${nameUser}</span>, tu ticket ${title} que fue asignado al técnico <strong>${nameUserSupport}</strong>, se ha cerrado correctamente, ingresa a tu ticket para más información <a href="${process.env.CLIENT_URL}/tickets/${ticketId}" style="text-decoration: none; color: #000; font-weight: bold;">aquí</a>.</p> 
-        <p style="text-align: center; color: #000; font-size: 1.2rem; font-weight: 400;">Saludos, MERN STACK.</p>
+        <p style="text-align: center; color: #000; font-size: 1.2rem; font-weight: 400;">Saludos.</p>
     </div>`,
       });
     } catch (error) {
