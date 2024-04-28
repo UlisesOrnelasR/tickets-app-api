@@ -6,9 +6,11 @@ export const corsConfig = {
       whiteList.push(undefined);
     }
 
-    if (whiteList.includes(origin)) {
+    if (!origin || whiteList.includes(origin)) {
+      // Permitir todas las solicitudes si el origen es undefined o está en la lista blanca
       callback(null, true);
     } else {
+      // Rechazar la solicitud con un error de CORS si el origen no está permitido
       callback(new Error("Error de cors"));
     }
   },
