@@ -27,3 +27,19 @@ Esta API proporciona un sistema de tickets de ayuda que permite a los usuarios "
 - **Cloudinary:** Utilizado para el almacenamiento de imágenes de los tickets.
 
 - **Nodemailer:** Utilizado para el envío de correos electrónicos de notificación.
+
+
+![create-ticket](https://github.com/UlisesOrnelasR/tickets-app-api/assets/99143567/39a8d430-f84c-416e-8378-3f6993453942)
+
+
+![all tickets](https://github.com/UlisesOrnelasR/tickets-app-api/assets/99143567/fbbae15f-da8c-4cef-94ff-283133606e50)
+
+
+
+![support- pick-ticket](https://github.com/UlisesOrnelasR/tickets-app-api/assets/99143567/aa778306-4270-4d20-ab6f-3f36c79dc15c)
+
+
+
+
+
+  
